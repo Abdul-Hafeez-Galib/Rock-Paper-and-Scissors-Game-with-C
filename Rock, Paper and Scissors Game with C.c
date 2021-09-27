@@ -42,7 +42,7 @@ int main(){
     printf("Enter 'r' for rock, 'p' for paper and 's' for scissors\n");
     scanf("%c", &you);
     int result = rockPaperScissors(you, comp);
-    printf("You chose %c and computer chose %c.", you, comp);
+    printf("You chose %c and computer chose %c.\n", you, comp);
     if(result==0){
         printf("Game Drawn!\n");
     }else if(result==1){
